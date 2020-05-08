@@ -2,84 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33946d13-de3a-4b52-9981-892cde65da42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/sys.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-api/src/main/java/com/wuwen/api/UserRemoteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-api/src/main/java/com/wuwen/api/enums/DeleteStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-api/src/main/java/com/wuwen/api/enums/ErrorEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-api/src/main/java/com/wuwen/api/util/RpcResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-api/target/classes/com/wuwen/api/UserRemoteService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-api/target/classes/com/wuwen/api/enums/DeleteStatusEnum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-api/target/classes/com/wuwen/api/enums/ErrorEnum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-api/target/classes/com/wuwen/api/util/RpcResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-api/target/customer-api-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-api/target/customer-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-api/user-api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/sql/user.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/src/main/java/com/wuwen/server/UserServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/src/main/java/com/wuwen/server/annotation/CompanyIdResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/src/main/java/com/wuwen/server/annotation/HeaderResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/src/main/java/com/wuwen/server/annotation/UserIdResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/src/main/java/com/wuwen/server/aspect/ParamAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/src/main/java/com/wuwen/server/config/WebAppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/src/main/java/com/wuwen/server/constant/ExceptionConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/src/main/java/com/wuwen/server/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/src/main/java/com/wuwen/server/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/src/main/java/com/wuwen/server/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/src/main/java/com/wuwen/server/domain/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/src/main/java/com/wuwen/server/exception/ParamException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/src/main/java/com/wuwen/server/exception/ServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/src/main/java/com/wuwen/server/interceptor/AuthorizationInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/src/main/java/com/wuwen/server/interceptor/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/src/main/java/com/wuwen/server/interceptor/HeaderArgumentResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/src/main/java/com/wuwen/server/user/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/src/main/java/com/wuwen/server/user/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/src/main/java/com/wuwen/server/utils/RedisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/src/main/java/com/wuwen/server/utils/SnowflakeId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/src/main/resources/logback-boot.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/src/test/java/com/wuwen/server/userserver/UserServerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/target/classes/com/wuwen/server/UserServerApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/target/classes/com/wuwen/server/annotation/CompanyIdResolver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/target/classes/com/wuwen/server/annotation/HeaderResolver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/target/classes/com/wuwen/server/annotation/UserIdResolver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/target/classes/com/wuwen/server/aspect/ParamAspect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/target/classes/com/wuwen/server/config/WebAppConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/target/classes/com/wuwen/server/constant/ExceptionConstant.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/target/classes/com/wuwen/server/controller/LoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/target/classes/com/wuwen/server/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/target/classes/com/wuwen/server/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/target/classes/com/wuwen/server/domain/entity/QUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/target/classes/com/wuwen/server/domain/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/target/classes/com/wuwen/server/exception/ParamException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/target/classes/com/wuwen/server/exception/ServiceException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/target/classes/com/wuwen/server/interceptor/AuthorizationInterceptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/target/classes/com/wuwen/server/interceptor/GlobalExceptionHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/target/classes/com/wuwen/server/interceptor/HeaderArgumentResolver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/target/classes/com/wuwen/server/user/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/target/classes/com/wuwen/server/user/impl/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/target/classes/com/wuwen/server/utils/RedisUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/target/classes/com/wuwen/server/utils/SnowflakeId.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/target/classes/logback-boot.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/target/generated-sources/java/com/wuwen/server/domain/entity/QUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/target/test-classes/com/wuwen/server/userserver/UserServerApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/user-server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +18,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -173,12 +97,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588923365259</updated>
-      <workItem from="1588923368341" duration="3796000" />
+      <workItem from="1588923368341" duration="4251000" />
     </task>
+    <task id="LOCAL-00001" summary="user">
+      <created>1588927466507</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588927466507</updated>
+    </task>
+    <task id="LOCAL-00002" summary="user">
+      <created>1588927547942</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588927547942</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="user" />
+    <option name="LAST_COMMIT_MESSAGE" value="user" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="190" key="#Other_File_Types" timestamp="1588926884639">
@@ -189,6 +132,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="304" y="187" width="1204" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1588925889379" />
+    <state x="454" y="221" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1588928156393">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="454" y="221" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1588928156393" />
     <state x="502" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588925219838">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -197,10 +144,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1588925467044" />
-    <state x="269" y="125" key="CommitChangelistDialog2" timestamp="1588927466081">
+    <state x="269" y="125" key="CommitChangelistDialog2" timestamp="1588927547826">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="269" y="125" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1588927466081" />
+    <state x="269" y="125" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1588927547826" />
     <state width="1638" height="363" key="GridCell.Tab.0.bottom" timestamp="1588927413594">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -253,10 +200,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1588927117798" />
-    <state x="440" y="253" key="Vcs.Push.Dialog.v2" timestamp="1588927505133">
+    <state x="440" y="253" key="Vcs.Push.Dialog.v2" timestamp="1588927587568">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="253" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1588927505133" />
+    <state x="440" y="253" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1588927587568" />
     <state x="217" y="229" key="new project wizard" timestamp="1588923872729">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
