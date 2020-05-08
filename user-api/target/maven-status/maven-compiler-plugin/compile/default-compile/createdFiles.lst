@@ -1,0 +1,4 @@
+com/wuwen/api/util/RpcResult.class
+com/wuwen/api/enums/ErrorEnum.class
+com/wuwen/api/UserRemoteService.class
+com/wuwen/api/enums/DeleteStatusEnum.class
