@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33946d13-de3a-4b52-9981-892cde65da42" name="Default Changelist" comment="雪花算法优化">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+    <list default="true" id="33946d13-de3a-4b52-9981-892cde65da42" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/user-server" beforeDir="false" afterPath="$PROJECT_DIR$/user-server" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1588923365259</updated>
       <workItem from="1588923368341" duration="9548000" />
-      <workItem from="1588987803411" duration="14596000" />
+      <workItem from="1588987803411" duration="15046000" />
     </task>
     <task id="LOCAL-00001" summary="user">
       <created>1588927466507</created>
@@ -186,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589013217381</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="人员信息">
+      <created>1589015095289</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1589015095289</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +203,8 @@
     </ignored-roots>
     <MESSAGE value="user" />
     <MESSAGE value="雪花算法优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="雪花算法优化" />
+    <MESSAGE value="人员信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="人员信息" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="190" key="#Other_File_Types" timestamp="1588926884639">
@@ -226,10 +231,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1588925467044" />
-    <state x="269" y="125" key="CommitChangelistDialog2" timestamp="1589014860212">
+    <state x="269" y="125" key="CommitChangelistDialog2" timestamp="1589015095147">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="269" y="125" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1589014860212" />
+    <state x="269" y="125" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1589015095147" />
     <state x="168" y="82" key="DiffContextDialog" timestamp="1588928442450">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -299,10 +304,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1588930653609" />
-    <state x="440" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589013219332">
+    <state x="440" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589015110884">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="253" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1589013219332" />
+    <state x="440" y="253" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1589015110884" />
     <state x="517" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1588987838096">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
