@@ -2,8 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33946d13-de3a-4b52-9981-892cde65da42" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/users-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-server/sql/user.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-server/src/main/java/com/wuwen/server/UserServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-server/src/main/java/com/wuwen/server/annotation/CompanyIdResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-server/src/main/java/com/wuwen/server/annotation/HeaderResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-server/src/main/java/com/wuwen/server/annotation/UserIdResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-server/src/main/java/com/wuwen/server/aspect/ParamAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-server/src/main/java/com/wuwen/server/config/SnowflakeConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-server/src/main/java/com/wuwen/server/config/WebAppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-server/src/main/java/com/wuwen/server/constant/ExceptionConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-server/src/main/java/com/wuwen/server/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-server/src/main/java/com/wuwen/server/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-server/src/main/java/com/wuwen/server/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-server/src/main/java/com/wuwen/server/domain/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-server/src/main/java/com/wuwen/server/exception/ParamException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-server/src/main/java/com/wuwen/server/exception/ServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-server/src/main/java/com/wuwen/server/interceptor/AuthorizationInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-server/src/main/java/com/wuwen/server/interceptor/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-server/src/main/java/com/wuwen/server/interceptor/HeaderArgumentResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-server/src/main/java/com/wuwen/server/user/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-server/src/main/java/com/wuwen/server/user/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-server/src/main/java/com/wuwen/server/utils/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-server/src/main/java/com/wuwen/server/utils/Snowflake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-server/src/main/resources/logback-boot.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-server/src/test/java/com/wuwen/server/userserver/UserServerApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-server" beforeDir="false" afterPath="$PROJECT_DIR$/user-server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1588923365259</updated>
       <workItem from="1588923368341" duration="9548000" />
-      <workItem from="1588987803411" duration="15254000" />
+      <workItem from="1588987803411" duration="15522000" />
     </task>
     <task id="LOCAL-00001" summary="user">
       <created>1588927466507</created>
@@ -198,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589015213416</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="人员信息2">
+      <created>1589015656402</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1589015656402</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +246,8 @@
     <MESSAGE value="雪花算法优化" />
     <MESSAGE value="人员信息" />
     <MESSAGE value="人员信息1" />
-    <option name="LAST_COMMIT_MESSAGE" value="人员信息1" />
+    <MESSAGE value="人员信息2" />
+    <option name="LAST_COMMIT_MESSAGE" value="人员信息2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="190" key="#Other_File_Types" timestamp="1588926884639">
@@ -240,10 +274,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1588925467044" />
-    <state x="269" y="125" key="CommitChangelistDialog2" timestamp="1589015213283">
+    <state x="269" y="125" key="CommitChangelistDialog2" timestamp="1589015656272">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="269" y="125" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1589015213283" />
+    <state x="269" y="125" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1589015656272" />
     <state x="168" y="82" key="DiffContextDialog" timestamp="1589015208509">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -313,10 +347,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1588930653609" />
-    <state x="440" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589015216546">
+    <state x="440" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589015660900">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="253" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1589015216546" />
+    <state x="440" y="253" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1589015660900" />
     <state x="517" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1588987838096">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
