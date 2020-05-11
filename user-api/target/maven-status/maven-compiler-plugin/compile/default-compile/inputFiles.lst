@@ -1,4 +1,4 @@
-/Users/wuwen/IdeaProjects/user/user-api/src/main/java/com/wuwen/api/UserRemoteService.java
-/Users/wuwen/IdeaProjects/user/user-api/src/main/java/com/wuwen/api/enums/ErrorEnum.java
-/Users/wuwen/IdeaProjects/user/user-api/src/main/java/com/wuwen/api/enums/DeleteStatusEnum.java
-/Users/wuwen/IdeaProjects/user/user-api/src/main/java/com/wuwen/api/util/RpcResult.java
+/Users/wuwen/IdeaProjects/users/user-api/src/main/java/com/wuwen/api/enums/ErrorEnum.java
+/Users/wuwen/IdeaProjects/users/user-api/src/main/java/com/wuwen/api/util/RpcResult.java
+/Users/wuwen/IdeaProjects/users/user-api/src/main/java/com/wuwen/api/enums/DeleteStatusEnum.java
+/Users/wuwen/IdeaProjects/users/user-api/src/main/java/com/wuwen/api/UserRemoteService.java

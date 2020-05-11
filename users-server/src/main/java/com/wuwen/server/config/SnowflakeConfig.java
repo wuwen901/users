@@ -25,7 +25,7 @@ public class SnowflakeConfig {
   private final StringRedisTemplate stringRedisTemplate;
 
   @Autowired
-  private SnowflakeConfig(StringRedisTemplate stringRedisTemplate) {
+  public SnowflakeConfig(StringRedisTemplate stringRedisTemplate) {
     this.stringRedisTemplate = stringRedisTemplate;
   }
 
